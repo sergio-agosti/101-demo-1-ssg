@@ -7,7 +7,7 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       input: "src",
-      data: "../data"
+      data: `../data/${process.env.DATA_CONTEXT}`
     }
   };
 
